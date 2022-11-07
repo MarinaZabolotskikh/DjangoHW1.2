@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Рецепты</title>
+</head>
+<body>
+<p style="color: black; font-size: 20px">
+Необходимо выбрать блюдо из списка и ввести количество персон.
+</p>
+<ul style="color: black; font-size: 20px">
+    {% for dish in recipe %}
+    <li>{{ dish }}</li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>
